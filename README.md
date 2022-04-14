@@ -28,3 +28,5 @@ code --install-extension ms-vscode-remote.vscode-remote-extensionpack
 ```
 
 ## Usage
+
+https://user-images.githubusercontent.com/12574048/163440990-6df840f3-0209-4617-8513-77a9ad34f0fe.mp4
