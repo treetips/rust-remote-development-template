@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  rust:
+    build:
+      context: .
+      dockerfile: ./docker/rust/Dockerfile
+    working_dir: /vscode/workspace
+    tty: true
+    volumes:
+      - .:/vscode/workspace
+      - rust-target:/vscode/workspace/target
+
+volumes:
+  rust-target:
